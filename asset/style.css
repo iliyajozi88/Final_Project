@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 90%;
+}
+body{
+    background-color: rgb(255, 249, 249);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+main{
+    width: 80%;
+    height: 100vh;
+    /* background-color: rgb(243, 247, 246); */
+    margin-top: 11px;
+   
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+
+}
+.center ul{
+    display: flex;
+    list-style: none;
+}
+.center ul li a{
+    padding: 17px;
+    text-decoration: none;
+}
+.right form{
+    display: flex;
+    gap: 5px;
+}
+input[type="search"]{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.container{
+    width: 100%;
+   height: 100vh;
+    display: flex;
+    gap: 5px;
+    /* background-color: beige; */
+    flex-direction: column;
+    align-items: center;
+   
+  
+}
+.row{
+    width: 100%;
+    height: 33%;
+    /* background-color: black; */
+    gap: 5px;
+    display: flex;
+    
+}
+.row .card{
+    width: 25%;
+    background-color: rgb(67, 51, 43);
+
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent !important;
+    border: 1px solid rgba(218, 215, 215, 0.918);
+}
+.top{
+  width: 100%;
+      background-color: transparent;
+    color: rgb(41, 39, 39);
+    text-align: center;
+    padding: 7px;
+}
+.content{
+     width: 100%;
+     min-height: 70%;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    padding: 7px;
+}
+  
+.footer{
+    width: 100%;
+    background-color: transparent;
+    color: rgb(26, 25, 25);
+    text-align: center;
+    padding: 7px;
+    border-top: 1px solid rgb(209, 204, 204);
+}
+.row-2{
+    width: 90%;
+    background-color: rgb(252, 252, 252);
+    margin-top: 9px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.box{
+    width: 80%;
+}
